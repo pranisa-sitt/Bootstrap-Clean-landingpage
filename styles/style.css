@@ -7,7 +7,8 @@ body {
   background-size: cover;
 }
 
-.info, .form {
+.info,
+.form {
   border: none;
   background: white;
 }
@@ -36,7 +37,7 @@ h1 {
 }
 
 .btn {
-  background:#235784;
+  background: #235784;
 }
 
 footer {
@@ -44,16 +45,17 @@ footer {
   background: rgba(255, 255, 255, 0.435);
 }
 
-.fa-brands{
+.fa-brands {
   color: #235784;
 }
 
 @media (max-width: 1200px) {
-body {
-  background-size: contain;
+  body {
+    background-size: contain;
 
-}
-  .cards{
+  }
+
+  .cards {
     flex-direction: column;
   }
 }
@@ -62,6 +64,7 @@ body {
   .card-body {
     flex-direction: column;
   }
+
   .info {
     margin-bottom: 10px;
   }
