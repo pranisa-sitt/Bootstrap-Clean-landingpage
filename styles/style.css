@@ -1,0 +1,49 @@
+body {
+  max-width: 100vw;
+  width: 100%;
+  height: 100vh;
+  background-image: url(../images/flat-lay-glass-surface-cleaning-spray-cleaning-concept.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.info, .form {
+  border: none;
+  background: white;
+}
+
+.row {
+  margin-top: 50px;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  align-self: center;
+}
+
+h1 {
+  font-family: 'Lato', sans-serif;
+  font-size: 100px;
+  font-weight: 600;
+  color: #235784;
+}
+
+.card-title {
+  color: #235784;
+}
+
+.button {
+  width: 100%;
+}
+
+.btn {
+  background:#235784;
+}
+
+footer {
+  height: 50px;
+  background: rgba(255, 255, 255, 0.435);
+}
+
+.fa-brands{
+  color: #235784;
+}
